@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Recipe App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recipe_app">Recipe Search App</string>
+    <string name="recipe_famous_food">Famous Recipe Food</string>
+    <string name="design_for">Design For \nInflexionpoint Technologies\n by Rakibul Ahasan</string>
+
+    <string name="variety">VARIETY</string>
+    <string name="time">TIME-SAVING</string>
+    <string name="delivery">FAST DELIVERY</string>
+    <string name="healthy">HEALTH-FOOD CHOICES</string>
+
+    <string name="variety_text">You can discover a wide range of recipes from different cuisines and for various dietary preferences.</string>
+    <string name="time_text">Recipe apps often come with features like cooking timers and step-by-step instructions, making the cooking process smoother and more efficient.</string>
+    <string name="healthy_text">You can find recipes tailored to specific dietary needs, helping you make healthier food choices.</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="login_to">Login To Your Account</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="login">Login</string>
+    <string name="donot_account">Don’t Have Account?</string>
+    <string name="explore_your_favorite_recipe">Explore Your Favorite Recipe</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Pofile</string>
+    <string name="ingredient">
+        " - 2 ripe avocados"\n\n
+        "- 1/2 red onion, minced (about 1/2 cup)"\n\n
+        "- 1-2 serrano chiles, stems and seeds removed, minced"\n\n
+        "- 2 tablespoons cilantro (leaves and tender stems), finely chopped"\n\n
+        - 1 tablespoon of fresh lime or lemon juice,\n\n
+        - 1/2 teaspoon coarse salt,\n\n
+        - A dash of freshly grated black pepper,\n\n
+        - 1/2 ripe tomato, seeds and pulp removed, chopped"
+    </string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_your_account">Create your account</string>
+</resources>

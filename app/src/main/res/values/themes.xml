@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RecipeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/light_yellow</item>
+    </style>
+
+    <style name="Theme.RecipeApp" parent="Base.Theme.RecipeApp" />
+
+    <style name="ToolbarColoredIcon" parent="Theme.Material3.DayNight">
+        <item name="android:textColorSecondary">#FFFFFF</item>
+    </style>
+
+</resources>

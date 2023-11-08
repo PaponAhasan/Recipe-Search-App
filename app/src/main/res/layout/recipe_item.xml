@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_margin="15dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/categoryItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivRecipe"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/iv_food_recipe" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Rank: 100"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Avocado"
+            android:textAlignment="gravity"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tvRank"
+            app:layout_constraintStart_toStartOf="@+id/tvRank" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ivRecipe"
+            app:srcCompat="@drawable/ic_wishlist" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="323dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        app:cardCornerRadius="22dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        app:cardElevation="1dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <androidx.appcompat.widget.AppCompatImageView-->
+<!--                android:id="@+id/ivRecipe"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="100dp"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:background="@drawable/white_button"-->
+<!--                android:src="@drawable/iv_food_recipe"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/tv_title"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:text="Perfect Guacamole"-->
+<!--                android:textSize="18sp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/ivRecipe"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/tvText"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Rank: "-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:textSize="17sp"-->
+<!--                android:textColor="@color/black"-->
+<!--                app:layout_constraintStart_toStartOf="@+id/tv_title"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/tv_title"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/tvRank"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:text="100"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16sp"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/tvText"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/tvText"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/tvText" />-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+</androidx.cardview.widget.CardView>
