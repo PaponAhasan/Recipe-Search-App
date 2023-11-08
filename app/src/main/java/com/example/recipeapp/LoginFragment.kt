@@ -47,13 +47,18 @@ class LoginFragment : Fragment() {
 
         loginBinding.tvLogin.setOnClickListener {
 
-            val email = loginBinding.etEmail.text.toString().trim()
+            if (!validate()) {
+                //onLoginFailed()
+                return@setOnClickListener
+            }
+
+            val email = loginBinding.etEmail.text.toString().trim().replace(" ", "");
             val password = loginBinding.etPassword.text.toString().trim()
 
             val userEmail = sharedPref.getString("email", "")?.trim()
             val usePassword = sharedPref.getString("password", "")?.trim()
 
-            if (userEmail == email && password == usePassword && email.isNotEmpty() && password.isNotEmpty()) {
+            if (userEmail == email && password == usePassword) {
                 val editor = sharedPref.edit()
                 editor.apply {
                     putBoolean("isLogin", true)
@@ -70,6 +75,25 @@ class LoginFragment : Fragment() {
                 Toast.makeText(context, "You are not valid user", Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    private fun validate(): Boolean {
+        var valid = true
+
+        val email = loginBinding.etEmail.text.toString().replace(" ", "");
+        if (email.isEmpty() || Regex("[^@]+").matches(email)) {
+            loginBinding.etEmail.error = "Enter a valid Email Id"
+            valid = false
+        } else {
+            loginBinding.etEmail.error = null
+        }
+        if (loginBinding.etPassword.text.toString().length < 6) {
+            loginBinding.etPassword.error = "Enter a valid password (minimum 6 characters)"
+            valid = false
+        } else {
+            loginBinding.etPassword.error = null
+        }
+        return valid
     }
 
     private fun init() {

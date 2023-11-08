@@ -81,6 +81,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/edit_text_bg"
             android:drawableStart="@drawable/ic_lock"
+            android:drawableEnd="@drawable/ic_eye"
             android:drawablePadding="15dp"
             android:elevation="5dp"
             android:ems="10"
@@ -184,5 +185,19 @@
             app:layout_constraintEnd_toEndOf="@+id/btnSignup"
             app:layout_constraintStart_toStartOf="@+id/btnSignup"
             app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
+
+        <ToggleButton
+            android:id="@+id/togglePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:drawableStart="@drawable/ic_eye"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="@+id/etPassword"
+            app:layout_constraintEnd_toEndOf="@+id/etPassword"
+            app:layout_constraintTop_toTopOf="@+id/etPassword" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

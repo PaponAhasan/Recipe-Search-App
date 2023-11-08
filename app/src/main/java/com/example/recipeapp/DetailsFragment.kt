@@ -2,11 +2,11 @@ package com.example.recipeapp
 
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
@@ -16,6 +16,7 @@ import com.example.recipeapp.model.SingleRecipeItem
 import com.example.recipeapp.repository.Repository
 import com.example.recipeapp.viewmodel.DetailsRecipeViewModel
 import com.example.recipeapp.viewmodel.DetailsRecipeViewModelFactory
+import java.text.DecimalFormat
 
 class DetailsFragment : Fragment() {
 
@@ -61,8 +62,10 @@ class DetailsFragment : Fragment() {
         if (response != null) {
             detailsBinding.tvRecipeTitle.text = response.title
             detailsBinding.tvRecipePublisher.text = response.publisher
-            detailsBinding.tvRecipeRank.text = response.social_rank.toString()
 
+            val socialRank = response.social_rank
+            val formattedValue = String.format("%.2f", socialRank)
+            detailsBinding.tvRecipeRank.text = formattedValue
 
             // Convert the ArrayList to a single String
             val concatenatedString = StringBuilder()
