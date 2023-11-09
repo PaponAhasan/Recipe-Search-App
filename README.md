@@ -1,7 +1,4 @@
-# Recipe-Search-App---Inflexionpoint
-
-
-# BarikoiMapy  
+# Recipe-Search-App---Inflexionpoint  
 
 ## Project Name  
 Recipe-Search-App using Forkify API
