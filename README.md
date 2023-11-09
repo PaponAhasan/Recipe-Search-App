@@ -8,15 +8,15 @@ Recipe-Search-App using Forkify API
 
 ### Screenshots of the application  
 
-Splash Screen           |   View Pager           | Login Page         |  Registatio Page         | 
+Splash Screen           |   View Pager           | Login Page         |  Registation Page         | 
 :-------------------------:|:------------------------:|:------------------------:|:------------------------:|
 <img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/6e5ee27c-ad53-4258-8aaf-387a9343b76f" height="400"> |  <img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/3f912823-7387-40ad-82a7-91546e5294f8" height="400"> | <img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/76292e84-df20-458f-8063-148bbfe5ebe2" height="400">  | <img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/11ea08de-1d4d-4d0b-adb3-2cd662818f14" height="400"> |
 
-<!--
-Current Location           |   Nearby Banks           | Current Location         |   Nearby Banks         | 
+Success Signup       |   Recipe Iteam page           | Recipe Item Details         |   User Profile        | 
 :-------------------------:|:------------------------:|:------------------------:|:------------------------:|
-<img src="https://github.com/PaponAhasan/-Map-Application-using-Maplibre-library/blob/main/Screenshot01.png" height="500">  |  <img src="https://github.com/PaponAhasan/-Map-Application-using-Maplibre-library/blob/main/Screenshot_2.png" height="500"> <img src="https://github.com/PaponAhasan/-Map-Application-using-Maplibre-library/blob/main/Screenshot01.png" height="500">  |<img src="https://github.com/PaponAhasan/-Map-Application-using-Maplibre-library/blob/main/Screenshot01.png" height="500">  |
+<img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/502f9004-26cb-4f1d-8552-0437bb9306a6" height="400">  |  <img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/2db51051-f8cb-41b2-8a6b-0297ba8bfc53" height="400"> <img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/2db51051-f8cb-41b2-8a6b-0297ba8bfc53" height="400">  |<img src="https://github.com/PaponAhasan/Recipe-Search-App---Inflexionpoint/assets/59710234/2db51051-f8cb-41b2-8a6b-0297ba8bfc53" height="400">  |
 
+<!--
 ## Features
 - Display a map using the Maplibre library.
 - Utilize the Barikoi Nearby API to fetch nearby Banks based on the user's current location.
