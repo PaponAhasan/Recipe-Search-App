@@ -1,6 +1,4 @@
-# Recipe-Search-App---Inflexionpoint  
-
-## Project Name  
+## Project Name(Recipe-Search-App---Inflexionpoint)
 Recipe-Search-App using Forkify API
 
 ### Screenshots of the application  
